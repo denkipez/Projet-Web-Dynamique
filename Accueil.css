@@ -1,5 +1,5 @@
 #iconeheader{
-    width: 10%;
+    width: 15%;
     height: auto;
 }
 .topnav{
@@ -10,7 +10,7 @@
 #carouselExampleIndicators{
     position: relative;
     z-index: 1;
-  margin-top: -40px;  
+  margin-top: -56px;  
 }
 
 .carousel-item{
