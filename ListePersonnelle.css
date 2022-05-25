@@ -6,8 +6,12 @@
 
 body{
   margin:0px;
-  padding: 0px;
+  padding: 5px;
   font-family: 'Open Sans', sans-serif;
+
+  background-repeat:no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 
 
@@ -33,10 +37,12 @@ header button{
 
 .container{
    
-    background-image:url("img/back.png");
-    padding: 40px 80px;
+   background-image:url("img/teste.jpg");
+    padding: 50px 100px;
     text-align: center;
     font-family: "montserrat";
+    min-height:20%; 
+	  min-width:100%;
   }
 
 .main{
@@ -67,32 +73,4 @@ header button{
 .cards .card .card-body p{
   margin-top: -10px;
 }
-.main2{
-    margin: 20px;
-    margin-top: 80px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-  }
-  
-  .cards2{
-    display:flex;
-    flex-wrap:wrap;
-  }
-  .cards2 .card2{
-    margin-right: 20px;
-    cursor:pointer;
-  }
-  .cards2 .card2 img{
-    width: 350px;
-  }
-  .cards2 .card2 .card-header2{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
-  }
-  .cards2 .card2 .card-body2 p{
-    margin-top: -10px;
-  }
-  
+
