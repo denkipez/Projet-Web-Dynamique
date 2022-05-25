@@ -3,7 +3,7 @@ body{
     background-image:url("img/client.jpg");
     background-repeat:no-repeat;
     background-size: cover;
-    background-origin: content-box;
+    width: 100%;
 }
 .topnav{
     position: relative;
