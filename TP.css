@@ -1,24 +1,36 @@
 body{
-    background-image:url("img/Expert.png");
+    
     background-repeat:no-repeat;
     background-size: cover;
     background-origin: content-box;
 
-    margin: 0;
+    margin: 5px;
     padding: 0;
   }
   #iconeheader{
     width: 15%;
     height: auto;
 }
+
   .container{
     text-align: center;
-    margin-top: 15px;
+    margin-top: 10px;
+    background-image:url("img/back.png");
+    
+
   }
+  
+  .photocenter{
+    
+    display: block;
+    margin: 0 auto; 
+}
+
   .btn{
     border: 7px solid #57CBAB;
-    background: none;
-    padding: 80px 180px;
+    border-radius: 10px;
+    background:white;
+    padding: 40px 80px;
     font-size: 20px;
     font-family: "montserrat";
     cursor: pointer;
@@ -32,7 +44,7 @@ body{
   }
   
   .btn1:hover,.btn2:hover, .btn3:hover{
-    color: #fff;
+    color:#268066;
   }
   
   .btn::before{

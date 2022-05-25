@@ -1,0 +1,98 @@
+
+#iconeheader{
+    width: 15%;
+    height: auto;
+}
+
+body{
+  margin:0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+header h1{
+  font-size: 50px;
+  max-width: 500px;
+  text-align:center;
+}
+header button{
+  padding: 15px 20px;
+  font-size: 20px;
+  border:none;
+  border-radius: 5px;
+  outline:none;
+  cursor:pointer;
+}
+
+.container{
+   
+    background-image:url("img/back.png");
+    padding: 40px 80px;
+    text-align: center;
+    font-family: "montserrat";
+  }
+
+.main{
+  margin: 20px;
+  margin-top: 80px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.cards{
+  display:flex;
+  flex-wrap:wrap;
+}
+.cards .card{
+  margin-right: 20px;
+  cursor:pointer;
+}
+.cards .card img{
+  width: 350px;
+}
+.cards .card .card-header{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+.cards .card .card-body p{
+  margin-top: -10px;
+}
+.main2{
+    margin: 20px;
+    margin-top: 80px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .cards2{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .cards2 .card2{
+    margin-right: 20px;
+    cursor:pointer;
+  }
+  .cards2 .card2 img{
+    width: 350px;
+  }
+  .cards2 .card2 .card-header2{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+  }
+  .cards2 .card2 .card-body2 p{
+    margin-top: -10px;
+  }
+  
