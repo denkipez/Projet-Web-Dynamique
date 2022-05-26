@@ -27,7 +27,7 @@ $result="";
                 }
 
                 else{ 
-                        header('Location: connexion.html');
+                        header('Location: ConnexionClient.html');
                         ?>  <script>
                         alert("Identifiants et/ou mot de passe inconnu.");</script>
                 <?php
