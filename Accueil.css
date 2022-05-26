@@ -31,3 +31,79 @@
     
 }
 
+.overlay-image2{
+    width:20%;
+}
+
+.text-container2{
+    margin-left: 270px;
+    margin-top:-70px;
+    color: white;
+}
+
+.container2{
+    margin-top: 20px;
+}
+
+.square{
+    background-color: #92cdbc;
+    width: 800px;
+    margin-top: 20px;
+    margin-left: 300px;
+    position: relative;
+    z-index : 4;
+
+}
+
+.container3{
+    position : relative;
+    z-index: 3;
+
+}
+
+.overlay-image3{
+    width:25%;
+}
+
+#overlay-image4{
+    width:19%;
+    margin-left:100px;
+   
+}
+
+#overlay-image5{
+    width:20%;
+    margin-left:30px;
+   
+}
+#overlay-image6{
+    width:20%;
+    margin-left:30px;
+}
+   
+#numerouno{
+    margin-left: 400px;
+    margin-right:100px;
+    margin-top:-30px;
+}
+
+.Title1{
+    margin-top:40px;
+}
+
+   
+#numerodos{
+    margin-left: 400px;
+    margin-right:100px;
+    margin-top:-30px;
+    
+}
+
+
+.Title2{
+    margin-top:80px;
+}
+
+.test{
+   
+}
