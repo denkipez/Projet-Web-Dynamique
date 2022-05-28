@@ -1,4 +1,3 @@
-
 <?php
 
 $login=isset($_POST["username"])? $_POST["username"]:"";
@@ -22,15 +21,13 @@ $result="";
                         $_SESSION['login'] =$login;
                         $_SESSION['password']   =$mdp;
                         $_SESSION['time']     = time();
-                        header('location: accueil.html');
+                        echo("ok");
                         
                 }
 
                 else{ 
-                        header('Location: ConnexionClient.html');
-                        ?>  <script>
-                        alert("Identifiants et/ou mot de passe inconnu.");</script>
-                <?php
+                       echo($nb,$result,$mdp,$login);
+        
                 }
         }
         
