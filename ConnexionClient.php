@@ -3,8 +3,10 @@
 
 $login=isset($_POST["username"])? $_POST["username"]:"";
 $mdp=isset($_POST["password"])? $_POST["password"]:"";
+$resultat="";
 $nb="";
-$result="";
+$data="";
+
 
         //BDD------------------------------\\
         $database = "omnessante";
@@ -13,26 +15,30 @@ $result="";
          
         if ($db_found){
                 $sql = "SELECT COUNT(*) FROM patient WHERE Identifiant='"."$login"."' AND Mdp='"."$mdp"."'";
-                $result=mysqli_query($db_handle,$sql);
-                
-                $nb=mysqli_fetch_row($result);
-                
+                $resultat =mysqli_query($db_handle,$sql);
+                while($data = mysqli_fetch_assoc($resultat)){
+                        $nb=$data['COUNT(*)'];
+                }
+
                 if($nb==1){
                         session_start();
                         $_SESSION['login'] =$login;
                         $_SESSION['password']   =$mdp;
                         $_SESSION['time']     = time();
                         header('location: accueil.html');
-                        
                 }
 
-                else{ 
-                        header('Location: ConnexionClient.html');
-                        ?>  <script>
-                        alert("Identifiants et/ou mot de passe inconnu.");</script>
-                <?php
+                else{
+                        header('location:ConnexionClient.html');
                 }
+                
         }
-        
+
+
 
                 ?>
+
+               
+        
+
+                
