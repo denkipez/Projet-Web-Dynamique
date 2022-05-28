@@ -12,10 +12,10 @@ $result="";
          
         if ($db_found){
                 $sql = "SELECT COUNT(*) FROM administrateur WHERE Courriel='"."$login"."' AND Mdp='"."$mdp"."'";
-                $result=mysqli_query($db_handle,$sql);
-                
-                $nb=mysqli_fetch_row($result);
-                
+                $resultat =mysqli_query($db_handle,$sql);
+                while($data = mysqli_fetch_assoc($resultat)){
+                        $nb=$data['COUNT(*)'];
+                } 
                 if($nb==1){
                         session_start();
                         $_SESSION['login'] =$login;
@@ -27,9 +27,8 @@ $result="";
 
                 else{ 
                         header('Location: ConnexionAdmin.html');
-                        ?>  <script>
-                        alert("Identifiants et/ou mot de passe inconnu.");</script>
-                <?php
+                       
+               
                 }
         }
 ?>

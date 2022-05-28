@@ -1,0 +1,57 @@
+
+
+#overlay-image2{
+    width:40%;
+    margin-top:-30px;
+    margin-right:-40px;
+}
+
+
+.text-container2{
+    margin:auto;
+    margin-top: -50px;
+
+    color: white;
+}
+
+
+
+#test{
+    background-color: #92cdbc;
+    width: 14.21cm;
+    Height:4.39cm;
+   margin:auto;
+    
+
+}
+
+
+.img1{
+    width: 110%;
+    margin-top: -30px;
+}
+
+
+.text-container2{
+
+    width:150px;
+}
+
+
+.btn{
+    background-color: white;
+    margin:auto;
+}
+
+.container4{
+    display : flex;
+    flex-direction: row; 
+}
+
+.text{
+    width:1000px;
+
+    text-align: left;
+    padding-right: 100px;
+    padding-top: 30px;
+}
