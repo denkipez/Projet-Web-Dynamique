@@ -21,7 +21,7 @@ $result="";
                         $_SESSION['login'] =$login;
                         $_SESSION['password']   =$mdp;
                         $_SESSION['time']     = time();
-                        header('location: accueil.html');
+                        header('location: VoirinfoADMIN.php');
                         
                 }
 

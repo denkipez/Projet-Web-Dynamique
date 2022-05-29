@@ -104,6 +104,10 @@
     margin-top:80px;
 }
 
-.test{
-   
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #57CBAB;
+    color: #fff;
 }
