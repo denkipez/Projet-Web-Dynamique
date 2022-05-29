@@ -4,13 +4,13 @@
 }
 .topnav{
     position: relative;
-    z-index: 2;
+    z-index: 0;
     box-shadow: 0 0 20px 0 rgb(0 0 0 / 0%);
 }
 #carouselExampleIndicators{
     position: relative;
-    z-index: 1;
-  margin-top: -56px;  
+    z-index: 0;
+  
 }
 
 .carousel-item{

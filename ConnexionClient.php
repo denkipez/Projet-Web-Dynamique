@@ -20,8 +20,16 @@ $data="";
                         $nb=$data['COUNT(*)'];
                 }
 
+                $sql= "SELECT * FROM patient WHERE Identifiant='"."$login"."' AND Mdp='"."$mdp"."'";
+                while($data = mysqli_fetch_assoc($resultat)){
+                        $IDPATIENT=$data['IDPATIENT'];
+                        $CarteVitale=$data['CarteVitale'];
+                }
+
                 if($nb==1){
                         session_start();
+                        $session['CarteVitale']=$CarteVitale;
+                        $_session['Id']=$IDPATIENT;
                         $_SESSION['login'] =$login;
                         $_SESSION['password']   =$mdp;
                         $_SESSION['time']     = time();
