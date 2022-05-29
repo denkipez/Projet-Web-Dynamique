@@ -23,13 +23,13 @@
     $db_handle = mysqli_connect('localhost', 'root', '' );
     $db_found = mysqli_select_db($db_handle, $database);
     if ($db_found){
-        $sql = "SELECT * FROM personnelsante  WHERE Specialite='Generaliste'";
+        $sql = "SELECT * FROM personnelsante  WHERE Specialite!='Generaliste'";
         $resultat =mysqli_query($db_handle,$sql);
         while($data = mysqli_fetch_assoc($resultat)){
             $contenu.='<div class="container4 square rounded p-5">';
             $contenu.='<div class="image"><img class="img1 rounded" src="'. $data['Photo'].'"></div>';
             $contenu.='<div style="line-height: 1rem; height: 96px;" class="text"><p1 class=text-container1><strong>'.$data['Nom'] .' ' .  $data['Prenom'] .'</strong><br>';
-            $contenu.='Médecin généraliste<br><br><a1 class="btn btn-custom">En savoir plus</a></p></div></div>';
+            $contenu.='Specialiste en '. $data['Specialite'].'<br><br><a1 class="btn btn-custom">En savoir plus</a></p></div></div>';
 
                
         }}

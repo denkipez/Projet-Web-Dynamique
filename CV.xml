@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="CV.xsl"?>
+<CV xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CV.xsd">
+	<Titre>Medecin</Titre>
+	<image></image>
+	<Nom>Zouitene</Nom>
+	<Prenom>Lydia</Prenom>
+	<date_naissance>26-06-2001</date_naissance>
+	<Adresse>4 rue saint martin</Adresse>
+	<Tel>01 15 26 48 26</Tel>
+	<Mobile>06 42 32 19 87</Mobile>
+	<email>Lyd@gmail.com</email>
+	<Passport disp="0"/>
+	<Diplomes>
+		<Diplome ecole="ENSI" id="1">
+			<Location>Manouba</Location>
+			<Pay>Tunisie</Pay>
+			<date>2008</date>
+			<desc>Etude en vue de l&#8217;obtention du DNI en informatique à l&#8217;ENSI (Ecole National en Science Informatique)  en cours</desc>
+		</Diplome>
+		<Diplome ecole="ISI" id="2">
+			<Location>Ariana</Location>
+			<Pay>Tunisie</Pay>
+			<date>2007-2008</date>
+			<desc>Obtention du Diplôme Universitaire de Technologie (DUT)   Spécialité : Technologies des Systèmes d&#8217;Information et de Communication à l&#8217;ISI (Institut Supérieur d&#8217;Informatique)</desc>
+		</Diplome>
+		<Diplome ecole="LycéChebb" id="3">
+			<Location>Ettadhamen</Location>
+			<Pay>Tunisie</Pay>
+			<date>2004-2005</date>
+			<desc>Baccalauréat en mathématiques</desc>
+		</Diplome>
+	</Diplomes>
+	<Experiences>
+		<Experience id="2">
+			<societe>CyberCreate</societe>
+			<Date> Juillet  2008 </Date>
+			<Desc>développeur PHP</Desc>
+			<Location>Paris</Location>
+			<Pays>France</Pays>
+		</Experience>
+		<Experience id="3">
+			<societe>Myiweb</societe>
+			<Date> Aout 2008 - octobre 2008   </Date>
+			<Desc>développeur PHP </Desc>
+			<Location>Tunis</Location>
+			<Pays>Tunisie</Pays>
+		</Experience>
+		<Experience id="4">
+			<societe>WANE</societe>
+			<Date> Novembre 2008 jusqu'à aujourd&#8217;hui </Date>
+			<Desc>intégrateur et Responsable des Développements</Desc>
+			<Location>Ariana</Location>
+			<Pays>Tunisie</Pays>
+		</Experience>
+		<Experience id="5">
+			<societe>creation-site-freelance</societe>
+			<Date>  Juin 2009 jusqu'à aujourd&#8217;hui</Date>
+			<Desc>Freelancer (Intégrateur + développeur WEB) Développement avec  les CMS (magento, Joomla {virtueMart}, Drupal) </Desc>
+			<Location>Manouba</Location>
+			<Pays>Tunisie</Pays>
+		</Experience>
+	</Experiences>
+	<Stages>
+		<Stage id="1">
+			<date> Février 2008 / Juin 2008</date>
+			<Desc>: Projet de Fin d&#8217;Etudes au sein de Tunisie Telecom. Objet : Conception et réalisation d&#8217;un système de gestion électronique de document (GED).</Desc>
+		</Stage>
+		<Stage id="1">
+			<date>  	Juillet 2007 /  Septembre 2007 </date>
+			<Desc>: Développement d'une application de gestion des cartes de visite avec PHP et MySQL technicien au Pôle El Gazala des Technologies de la Communication.</Desc>
+		</Stage>
+	</Stages>
+	<MiniProjets>
+		<MinProjet ID_E="1" ID="5">
+			<Titre>Freelancer</Titre>
+			<Date> Juin  2008 </Date>
+			<Desc>création module et composent sous joomla</Desc>
+		</MinProjet>
+		<MinProjet ID_E="1" ID="1">
+			<Titre>Simulateur 3D fractal d'une zone géographique</Titre>
+			<Date>Eté 2009</Date>
+			<Desc>Le but de ce projet est de réaliser une application permettant la simulation 3D d'une zone géographique en considération de tout type de relief ( plat ou fort) . il s'agit d'implémenter un algorithme (par exemple le mid-point déplacement algorithmes) qui permet de générer un relief aléatoire fractal.</Desc>
+		</MinProjet>
+		<MinProjet ID_E="2" ID="2">
+			<Titre>Service Web</Titre>
+			<Date>decembre 2007</Date>
+			<Desc>Mini projet avec  PHP5, HTML et XML,  Conversion de base de données à un fichier XML, Création des flux RSS, Création des sévices web</Desc>
+		</MinProjet>
+		<MinProjet ID_E="2" ID="3">
+			<Titre>CMS Joomla</Titre>
+			<Date>Novembre 2007</Date>
+			<Desc>Création d&#8217;un site web dynamique commercial</Desc>
+		</MinProjet>
+		<MinProjet ID_E="2" ID="4">
+			<Titre>développement avec .Net  / c#</Titre>
+			<Date>Janvier 2008</Date>
+			<Desc>Gestion Bibliothèque</Desc>
+		</MinProjet>
+		<MinProjet ID_E="2" ID="4">
+			<Titre>Lotus Notes</Titre>
+			<Date>October 2007</Date>
+			<Desc>Gestion  congé des employeurs </Desc>
+		</MinProjet>
+		<MinProjet ID_E="2" ID="4">
+			<Titre>VB / Oracle</Titre>
+			<Date>Janvier 2006 - Mars 2006</Date>
+			<Desc>Gestion d'absentéisme d'étudiant</Desc>
+		</MinProjet>
+	</MiniProjets>
+	<Technologie>
+		<Titre>Technologies maitrisées :</Titre>
+		<tech titre="JEE"> JEE ( Java Entreprise Edition ) : plateforme de développement.</tech>
+		<tech titre="WEB 2.0">ExtJS , jQuery , Motools ( Framework AJAX ) : Client riche.</tech>
+		<tech titre="PHP5"> développement Orionté Objet, Symfony, Zend Framework</tech>
+		<tech titre="XHTML">Intégration XHTML / CSS : externalisation des données</tech>
+		<tech titre="BD"> MySQL, Oracle , Acces  : system de gestion BD.</tech>
+		<tech titre="RSS">Syndication RSS : mécanisme de notification</tech>
+	</Technologie>
+	<Competences>
+		<Competence titre="Système d&#8217;exploitation">Windows, Linux.</Competence>
+		<Competence titre="Outil de conception "> Rational Rose,NetBeans </Competence>
+		<Competence titre="Outils de programmation ">NetBeans, Lotus Notes, XMLSPY, Macromedia Dreamweaver</Competence>
+		<Competence titre=" Langages de programmation ">C, C++, C#, Java, SQL, PL-SQL, PHP, JavaScript, XML, VB, Lotus, UML</Competence>
+		<Competence titre=" Outils de design"> Photoshop, flash Macromedia </Competence>
+	</Competences>
+	<Langues>
+		<Langue niveau="5">Arabe </Langue>
+		<Langue niveau="3"> Français </Langue>
+	</Langues>
+	<Divers>
+		<Diver>Permis de conduire depuis 4 ans</Diver>
+	</Divers>
+</CV>
